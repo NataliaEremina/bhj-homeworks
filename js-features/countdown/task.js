@@ -3,7 +3,7 @@
 const count = document.getElementById("timer");
 
 const timer = setInterval(()=>{
-    countdown.innerText--;
+    count.innerText--;
     if (count.innerText == 0) {
         alert('Вы победили в конкурсе');
         clearInterval(timer);
